@@ -1,5 +1,5 @@
 # surrogate_guided_sampling_designs
-Data example code for manuscript Surrogate-guided sampling designs for classification of rare outcomes from electronic medical records data
+This repository contains code for the paper 'Surrogate-guided sampling designs for classification of rare outcomes from electronic medical records data'. The original dataset used in the paper is not available for public distribution, so we include a derived dataset (created text features, instead of original radiology report text) that can be used to reproduce the analysis.
 
 R file descriptions:
 - `display_results.R`: Displays results as in Table 1 of the manuscript from pre-loaded data analysis results (i.e. `p1_lasso_n100.csv`, `p1_lasso_n250.csv`, `p1_lasso_n500.csv` files)
